@@ -1,0 +1,65 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-color: black;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    text-align: center; /* Alinha o conteúdo da div ao centro */
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    border-radius: 4px;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre as divs */
+}
+
+button {
+    margin: 5px; /* Espaçamento entre os botões */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white;
+    display: block; /* Faz o link ocupar todo o espaço do botão */
+}
+
+.net {
+    background-color: red;
+}
+
+.crunc {
+    background-color: orange;
+}
+
+
+
+
+
